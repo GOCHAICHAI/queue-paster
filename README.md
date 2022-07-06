@@ -4,6 +4,7 @@ Queue Paster
 
 
 A simple python script the queue your clipboard.
+Copy and paste as a queue.
 
 
 Installation

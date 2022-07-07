@@ -5,15 +5,16 @@ Queue Paster
 
 Copy Copy Copy, Paste Paste Paste.   
 A simple python script the queue your clipboard allow you copy and paste as a queue.  
-Use shortcut `Ctrl + Win + C` and `Ctrl + Win + V`
+Use shortcut `Ctrl + Win + C` and `Ctrl + Win + V`  
 
 
 Installation
 ------------
 
-`pip install clipboard` is requied
-AutoHotKey is requied.  
-Create `C:\.keycache\queue_paster.txt` and make it writable
+Install AutoHotKey  
+`pip install clipboard`, a python package  
+Create `C:\.keycache\queue_paster.txt` and make it writable  
+Run example.ahk  
 
 
 Limitation

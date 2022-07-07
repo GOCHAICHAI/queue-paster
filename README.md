@@ -20,4 +20,5 @@ Run example.ahk
 Limitation
 ----------
 
-If copy multiple rows, it will paste each row seperatly.
+Currently only support plain text copy.  
+For copy multiple rows, it will paste each row seperatly.  

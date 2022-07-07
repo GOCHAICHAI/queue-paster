@@ -3,8 +3,8 @@ Queue Paster
 ============
 
 
-A simple python script the queue your clipboard.  
-Copy and paste as a queue.
+Copy Copy Copy, Paste Paste Paste.   
+A simple python script the queue your clipboard allow you copy and paste as a queue.
 
 
 Installation

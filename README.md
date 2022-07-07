@@ -11,6 +11,7 @@ Use shortcut `Ctrl + Win + C` and `Ctrl + Win + V`
 Installation
 ------------
 
+`pip install clipboard` is requied
 AutoHotKey is requied.  
 Create `C:\.keycache\queue_paster.txt` and make it writable
 

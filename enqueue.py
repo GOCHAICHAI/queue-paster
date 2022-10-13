@@ -1,12 +1,13 @@
-import clipboard
 import io
+
+import clipboard
 
 # get clipboard data
 clipboard = clipboard.paste()
 print("clipboard: " + clipboard)
 
 # read
-file = io.open('C:\.keycache\queue_paster.txt', mode='r', encoding='utf-8')
+file = io.open('C:\\.keycache\\queue_paster.txt', mode='r', encoding='utf-8')
 lines = file.readlines()
 file.close()
 
@@ -18,7 +19,8 @@ print("{}: {}".format(count, clipboard))
 
 for i, line in enumerate(lines):
     # ignore empty line
-    if len(line.replace('\n', '')) == 0: continue
+    if len(line.replace('\n', '')) == 0:
+        continue
 
     # print line
     count += 1

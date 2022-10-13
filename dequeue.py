@@ -1,9 +1,10 @@
-import sys
-import clipboard
 import io
+import sys
+
+import clipboard
 
 # read
-file = io.open("C:\.keycache\queue_paster.txt", mode='r', encoding='utf-8')
+file = io.open("C:\\.keycache\\queue_paster.txt", mode='r', encoding='utf-8')
 lines = file.readlines()
 file.close()
 
@@ -17,9 +18,10 @@ new_lines = []
 copied = False
 for i, line in enumerate(lines):
     # ignore empty line
-    if len(line.replace('\n', '')) == 0: continue
+    if len(line.replace('\n', '')) == 0:
+        continue
 
-    if copied == False: 
+    if copied == False:
         # set clipboard data
         clipboard.copy(lines[0].strip())
         print("clipboard: " + lines[0].strip())

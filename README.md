@@ -3,9 +3,11 @@ Queue Paster
 ============
 
 
-Copy Copy Copy, Paste Paste Paste.   
-A simple python script the queue your clipboard allow you copy and paste as a queue.  
+Copy Copy Copy, Paste Paste Paste.  
+A simple python script the queue (or stack) your clipboard allow you copy and paste as a queue.  
 Use shortcut `Ctrl + Win + C` and `Ctrl + Win + V`  
+
+Start from v2 the stack mode is supported
 
 
 Installation

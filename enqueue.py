@@ -28,6 +28,6 @@ for i, line in enumerate(lines):
     new_lines.append(line)
 
 # write
-file = io.open('C:\.keycache\queue_paster.txt', mode='w', encoding='utf-8')
+file = io.open('C:\\.keycache\\queue_paster.txt', mode='w', encoding='utf-8')
 file.writelines(new_lines)
 file.close()
